@@ -1,0 +1,15 @@
+package gl-idris-b
+
+sourcedir = src
+modules =   Graphics.Rendering.OpenGL 
+          , Graphics.Rendering.OpenGL.Internal.Buffers
+          , Graphics.Rendering.OpenGL.Internal.GLEW
+          , Graphics.Rendering.OpenGL.Internal.GLBindings
+          , Graphics.Rendering.OpenGL.Internal.OpenGLConfig
+          , Graphics.Rendering.OpenGL.Internal.Types
+
+opts = "-p contrib "
+
+makefile = MakefileGl
+
+objs = gl_idris_b.o, gl_idris_b.h
