@@ -365,6 +365,7 @@ namespace GetPName
     GL_BLEND                  | 
     GL_BLEND_DST              | 
     GL_BLEND_SRC              | 
+    GL_CURRENT_COLOR          |
     GL_COLOR_CLEAR_VALUE      | 
     GL_COLOR_LOGIC_OP         | 
     GL_COLOR_WRITEMASK        | 
@@ -442,6 +443,7 @@ namespace GetPName
     toGlInt GL_BLEND_DST              = 0x0BE0
     toGlInt GL_BLEND_SRC              = 0x0BE1
     toGlInt GL_COLOR_CLEAR_VALUE      = 0x0C22
+    toGlInt GL_CURRENT_COLOR          = 0x0B00
     toGlInt GL_COLOR_LOGIC_OP         = 0x0BF2
     toGlInt GL_COLOR_WRITEMASK        = 0x0C23
     toGlInt GL_CULL_FACE              = 0x0B44
@@ -4901,6 +4903,9 @@ namespace GlEnums
 
   GL_QUERY_COUNTER_BITS    : GLenum
   GL_QUERY_COUNTER_BITS     = 0x8864
+
+  GL_CURRENT_COLOR         : GLenum
+  GL_CURRENT_COLOR          = 0x0B00
 
   GL_CURRENT_QUERY         : GLenum
   GL_CURRENT_QUERY          = 0x8865
