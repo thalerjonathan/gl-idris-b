@@ -1,12 +1,12 @@
 # gl-idris-b
 Low level OpenGL bindings for Idris. This package is based on https://github.com/eckart/gl-idris but added pre OpenGL calls (e.g. glBegin/End, glLoadIdentity, ...) for immediate mode. Compared to gl-idris it has no support (and thus no dependencies) for PNG loading, lightyear OBJ loading, shader init/loading.
 
-## Requires Idris version: 1.2
+### Idris version: 1.2
 
-## Library Dependencies
+### Library Dependencies
 - glew: for loading the OpenGL functions on the respective system
 
-## Building the library
+### Building the library
 Assuming you have installed Idris and it is on your path.
 
 1. Make sure glew is installed on your system and can be found by pkg-config. On Linux use the package manager of your system, on Mac OS X use brew install.
