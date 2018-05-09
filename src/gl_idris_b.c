@@ -3,6 +3,7 @@
 #include <idris_rts.h>
 #include <GL/glew.h>
 #include <png.h>
+#include <string.h>
 
 #include "gl_idris_b.h"
 
